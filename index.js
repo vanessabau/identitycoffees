@@ -11,9 +11,10 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //Routes
-app.get("/", function (req, res) {
-  res.send("Hello World!");
-});
+// app.get("/", function (req, res) {
+//   res.send("Hello World!");
+// });
+require("./routes/html-routes")(app);
 
 app.listen(3000, function () {
   console.log("App listening on port " + PORT);
