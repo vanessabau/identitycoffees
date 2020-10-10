@@ -16,9 +16,25 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/html/home.html"));
   });
 
-  // app.get("/cms", function(req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/cms.html"));
-  // });
+  app.get("/about", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/about.html"));
+  });
+
+  app.get("/midtown", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/midtown.html"));
+  });
+
+  app.get("/westside", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/westside.html"));
+  });
+
+  app.get("/team", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/team.html"));
+  });
+
+  app.get("/coffee", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/coffee.html"));
+  });
 
   // // blog route loads blog.html
   // app.get("/blog", function(req, res) {
