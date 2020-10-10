@@ -1,0 +1,22 @@
+{
+  "name": "identitycoffees",
+  "version": "1.0.0",
+  "description": "small business coffee company website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessabau/identitycoffees.git"
+  },
+  "author": "Vanessa Bautista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessabau/identitycoffees/issues"
+  },
+  "homepage": "https://github.com/vanessabau/identitycoffees#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
