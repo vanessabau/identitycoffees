@@ -1,0 +1,52 @@
+body {
+  font-family: Montserrat;
+}
+.navbar {
+  margin-bottom: 0;
+}
+h5 {
+  width: 100%;
+  text-align: center;
+}
+
+#home {
+  background-image: url(../images/identityhero.jpeg);
+  background-repeat: no-repeat;
+  display: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#hero-title {
+  margin-bottom: 25px;
+}
+#hero-header {
+  margin-bottom: 50px;
+}
+#hero-title {
+  font-family: Space Mono;
+  font-size: 8rem;
+}
+#hero-text {
+  margin-bottom: 50px;
+}
+.text-white {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+#hero-subscript {
+  font-size: 3em;
+  padding: 0px;
+}
+.hero-info {
+  font-size: 0.8em;
+  color: goldenrod;
+  line-height: 0.8em;
+}
