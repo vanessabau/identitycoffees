@@ -24,13 +24,22 @@ h5 {
 }
 #hero-title {
   margin-bottom: 25px;
+  font-family: Bitter;
 }
+
 #hero-header {
   margin-bottom: 50px;
 }
 #hero-title {
-  font-family: Space Mono;
   font-size: 8rem;
+  text-align: center;
+}
+#hero-subscript {
+  font-family: Raleway;
+  font-weight: 700 !important;
+  font-size: 3em;
+  padding: 0px;
+  letter-spacing: 0.5em;
 }
 #hero-text {
   margin-bottom: 50px;
@@ -40,10 +49,6 @@ h5 {
   margin: 0 auto;
   text-align: center;
   display: block;
-}
-#hero-subscript {
-  font-size: 3em;
-  padding: 0px;
 }
 .hero-info {
   font-size: 0.8em;
