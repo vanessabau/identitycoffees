@@ -1,12 +1,41 @@
 body {
   font-family: Montserrat;
+  background-color: rgb(26, 26, 26);
 }
 .navbar {
   margin-bottom: 0;
 }
+.logo-div {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: Miriam Libre;
+  text-align: center;
+}
+h3 {
+  color: #edcd92;
+  text-align: center;
+  font-family: Raleway;
+  letter-spacing: 0.5em;
+  font-weight: 700;
+}
 h5 {
   width: 100%;
   text-align: center;
+}
+#navbar {
+  background-color: black;
+  font-size: small;
+  letter-spacing: 0.2em;
+}
+#main-container-row {
+  margin-top: 25px;
+}
+#main-container {
+  border: 3px solid #edcd92;
 }
 
 #home {
@@ -22,17 +51,19 @@ h5 {
   height: 100%;
   overflow: hidden;
 }
+#banner {
+  color: white;
+}
 #hero-title {
   margin-bottom: 25px;
-  font-family: Bitter;
+  font-family: Miriam Libre;
+  font-size: 7.5rem;
+  text-align: center;
+  letter-spacing: 0.2em;
 }
 
 #hero-header {
   margin-bottom: 50px;
-}
-#hero-title {
-  font-size: 8rem;
-  text-align: center;
 }
 #hero-subscript {
   font-family: Raleway;
@@ -52,6 +83,6 @@ h5 {
 }
 .hero-info {
   font-size: 0.8em;
-  color: goldenrod;
+  color: #edcd92;
   line-height: 0.8em;
 }
