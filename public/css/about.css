@@ -1,1 +1,13 @@
-
+#owner-pic {
+  float: right;
+  height: 30em;
+  overflow: auto;
+  margin-left: 20px;
+}
+.about-details-div {
+  color: white;
+  clear: right;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1.75em;
+}

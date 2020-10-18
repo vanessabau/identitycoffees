@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Latest compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!--Google Font Links-->
     <link
       href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Montserrat&family=Raleway:wght@300;700;800&family=Space+Mono&display=swap"
@@ -19,7 +19,14 @@
     />
     <!--CSS Links-->
     <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/about.css" />
+		<link rel="stylesheet" href="../css/coffee.css" />
+		<style>
+			/* Make the image fully responsive */
+			.carousel-inner img {
+				width: 100%;
+				height: 100%;
+			}
+			</style>
     <title>Identity Coffees Coffee Page</title>
   </head>
   <body id="about-body">
@@ -38,13 +45,10 @@
           <a class="nav-link" href="/midtown">MIDTOWN CAFE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/westside">WESTSIDE</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/team">JOIN THE TEAM</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">BEDTIME STORY</a>
+          <a class="nav-link" href="/about">OUR STORY</a>
         </li>
       </ul>
     </nav>
@@ -56,9 +60,81 @@
           <h1>IDENTITY</h1>
           <h3>COFFEES</h3>
         </div>
+        <div class="jumbotron"></div>
+        <div class="coffee-details-div">
+          <h4 id="coffee-title">Directly sourced, single-origin coffees</h4>
+          <p class="coffee-ptag">
+            We believe coffee is about people. We built our shops as places for
+            Sacramentens to gather and move the world forward. We built our
+            company to provide for our families and those of our team members
+            and farming partners. This is why we work directly with coffee
+            producers in Central and South America to procure small lots of
+            exquisitely delicious coffees.
+          </p>
+          <p class="coffee-ptag">
+            Over time we have forged long lasting relationships that reflect a
+            mutuality in benefit and in love of coffee. Co-owner Lucky Rodrigues
+            visits our farming partners, stays in their homes, and relishes in
+            sharing the inherent qualities of the work put into each small lot
+            of coffee cherry with our Sacramento customers.
+          </p>
+        </div>
+
+        <div id="demo" class="carousel slide" data-ride="carousel" data-pause="hover">
+
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+						<li data-target="#demo" data-slide-to="3"></li>
+					</ul>
+					
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../images/sourcing-luckronpatio.png" alt="Los Angeles" width="1100" height="500">
+						</div>
+						<div class="carousel-item">
+							<img src="../images/sourcing-luckonhorse.png" alt="Chicago" width="1100" height="500">
+						</div>
+						<div class="carousel-item">
+							<img src="../images/sourcing-cherrypicker.png" alt="Chicago" width="1100" height="500">
+						</div>
+						<div class="carousel-item">
+							<img src="../images/sourcing-camp.png" alt="New York" width="1100" height="500">
+						</div>
+					</div>
+					
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+
+        </div>
       </div>
       <div class="col-2"></div>
-    </section>
+		</section>
+
+		<footer class="page-footer font-small white">
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright
+        <a href="https://identitycoffees.com/" id="copyright-link"
+          >Identity Coffees</a
+        >
+      </div>
+		</footer>
+		
+		<!--Jquery script-->
+    <script>
+      $(".carousel").carousel({
+        interval: 2000,
+      });
+    </script>
   </body>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

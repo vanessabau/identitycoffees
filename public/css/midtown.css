@@ -1,0 +1,23 @@
+.midtown-details-div {
+  color: white;
+  clear: right;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1.75em;
+}
+.midtown-photos-array {
+  margin-bottom: 30px;
+}
+.midtown-info-div {
+  color: white;
+  margin-top: 40px;
+}
+.midtown-info-header {
+  font-weight: 800;
+}
+.midtown-details {
+  font-size: 14px;
+}
+#email-link {
+  color: white;
+}
