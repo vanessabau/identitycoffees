@@ -21,3 +21,46 @@
 #email-link {
   color: white;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 549px) {
+  .midtown-details-div {
+    font-size: 12px;
+  }
+  .midtown-photos-array {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .midtown-pic {
+    margin-bottom: 20px;
+  }
+}
+/* 
+@media screen and (min-width: 375px) {
+} */
+
+@media screen and (min-width: 550px) {
+  .midtown-photos-array {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .midtown-pic {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .midtown-pic {
+    margin-bottom: 0px;
+    padding: 5px;
+  }
+  .midtown-photos-array {
+    margin-bottom: 0px;
+  }
+  .midtown-jumbo {
+    margin-top: 20px;
+  }
+  #midtown-jumbo {
+    padding: 3px;
+  }
+}
