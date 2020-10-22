@@ -24,10 +24,6 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/html/midtown.html"));
   });
 
-  app.get("/westside", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/html/westside.html"));
-  });
-
   app.get("/team", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/html/team.html"));
   });

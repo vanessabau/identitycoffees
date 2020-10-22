@@ -6,9 +6,11 @@ const PORT = process.env.PORT || 3000;
 
 // Creating express app and configuring middleware needed for authentication
 const app = express();
+app.use(express.static("public"));
+
+//Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
 
 //Routes
 // app.get("/", function (req, res) {
