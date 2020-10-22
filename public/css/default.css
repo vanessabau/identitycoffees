@@ -42,53 +42,8 @@ h6 {
   font-weight: 700 !important;
 }
 
-#home {
-  background-image: url(../images/identityhero.jpeg);
-  background-repeat: no-repeat;
-  display: cover;
-  /* background-attachment: fixed; */
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
 #banner {
   color: white;
-}
-#hero-title {
-  margin-bottom: 25px;
-  font-family: Miriam Libre;
-  font-size: 7.5rem;
-  text-align: center;
-  letter-spacing: 0.2em;
-}
-
-#hero-header {
-  margin-bottom: 50px;
-}
-#hero-subscript {
-  font-family: Raleway;
-  font-weight: 700 !important;
-  font-size: 3em;
-  padding: 0px;
-  letter-spacing: 0.5em;
-}
-#hero-text {
-  margin-bottom: 50px;
-}
-.text-white {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-}
-.hero-info {
-  font-size: 0.8em;
-  color: #edcd92;
-  line-height: 0.8em;
 }
 .page-footer {
   color: #edcd92;

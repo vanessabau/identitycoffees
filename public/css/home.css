@@ -1,0 +1,116 @@
+#home {
+  background-image: url(../images/identityhero.jpeg);
+  background-repeat: no-repeat;
+  display: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  /* -moz-background-size: cover; */
+  -o-background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#hero-header {
+  margin-bottom: 50px;
+}
+
+#hero-title {
+  margin-bottom: 25px;
+  font-family: Miriam Libre;
+  font-size: 7.5em;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+#hero-subscript {
+  font-family: Raleway;
+  font-weight: 700 !important;
+  font-size: 3em;
+  padding: 0px;
+  letter-spacing: 0.5em;
+}
+#hero-text {
+  margin-bottom: 50px;
+}
+.hero-info {
+  font-size: 0.8em;
+  color: #edcd92;
+  line-height: 0.8em;
+}
+.text-white {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (max-width: 374px) {
+  #banner {
+    text-align: left;
+    font-size: 16px;
+  }
+  #hero-title {
+    margin-top: 30px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  #hero-subscript {
+    font-size: 1.5em;
+  }
+  .hero-info {
+    font-size: 0.5em;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  #banner {
+    text-align: left;
+  }
+  #hero-title {
+    margin-top: 25px;
+    font-size: 4em;
+    margin-bottom: 10px;
+  }
+  #hero-subscript {
+    font-size: 2.5em;
+  }
+  .hero-info {
+    font-size: 12px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  #banner {
+    text-align: center;
+  }
+  #hero-title {
+    margin-top: 225px;
+    font-size: 6em;
+    margin-bottom: 10px;
+  }
+  #hero-subscript {
+    font-size: 3em;
+  }
+  .hero-info {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #banner {
+    text-align: center;
+  }
+  #hero-title {
+    margin-top: 225px;
+    font-size: 7.5em;
+    margin-bottom: 10px;
+  }
+  #hero-subscript {
+    font-size: 3em;
+  }
+  .hero-info {
+    font-size: 12px;
+    color: #edcd92;
+  }
+}
