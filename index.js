@@ -18,6 +18,6 @@ app.use(express.json());
 // });
 require("./routes/html-routes")(app);
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log("App listening on port " + PORT);
 });
