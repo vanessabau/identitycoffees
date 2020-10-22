@@ -52,3 +52,68 @@ h6 {
 #copyright-link {
   color: #edcd92;
 }
+
+/* Logo Media Queries */
+
+@media screen and (max-width: 374px) {
+  #main-container {
+    padding: 10px;
+  }
+  .logo-div {
+    margin-bottom: 0px;
+  }
+  #logo-identity {
+    font-size: 35px;
+  }
+  #logo-coffees {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  #main-container {
+    padding: 10px;
+  }
+  .logo-div {
+    margin-bottom: 0px;
+  }
+  #logo-identity {
+    font-size: 35px;
+  }
+  #logo-coffees {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  #main-container {
+    padding: 25px;
+  }
+  .logo-div {
+    margin-bottom: 40px;
+  }
+  #logo-identity {
+    font-size: 60px;
+  }
+  #logo-coffees {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #main-container {
+    padding: 25px;
+  }
+  .logo-div {
+    margin-bottom: 40px;
+  }
+  #logo-identity {
+    font-size: 80px;
+  }
+  #logo-coffees {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
