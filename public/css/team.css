@@ -9,3 +9,22 @@
   letter-spacing: 0.1em;
   line-height: 1.75em;
 }
+/* Media Queries */
+
+@media screen and (max-width: 400px) {
+  .content-title-div {
+    margin-bottom: 30px;
+  }
+  .team-header {
+    font-size: 20px !important;
+  }
+  .team-ptag {
+    font-size: 14px;
+  }
+  .team-h4 {
+    font-size: 16px;
+  }
+  li {
+    font-size: 14px;
+  }
+}
