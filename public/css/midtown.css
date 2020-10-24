@@ -31,11 +31,16 @@
   .midtown-photos-array {
     margin-top: 0px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
   }
   .midtown-pic {
     margin-bottom: 20px;
-    width: auto;
-    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    overflow: auto;
   }
   .midtown-jumbo {
     height: 200px;
@@ -46,7 +51,6 @@
   #midtown-jumbo {
     width: auto;
     height: 100%;
-
     overflow: auto;
     margin: auto;
     padding: 3px;
