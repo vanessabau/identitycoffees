@@ -2,7 +2,7 @@
 Informative website for a local small business coffee company
 # ![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
 ## GITHUB USER: vanessabau
-## GITHUB EMAIL: null
+## EMAIL: vanessawebdev@gmail.com 
 # ![vanessabau](https://avatars2.githubusercontent.com/u/59780981?v=4)
 ## Click video link below to watch demo
 # [![Watch the video](https://raw.githubusercontent.com/vanessabau/ReadMe-generator/master/Screen%20Shot%202020-06-03%20at%2011.41.56%20AM.png)](https://youtu.be/-mkFih5QBos)
